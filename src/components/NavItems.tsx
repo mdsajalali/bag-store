@@ -7,7 +7,7 @@ interface isClickProps {
 const NavItems = ({ isClick }: isClickProps) => {
   return (
     <nav
-      className={`absolute top-[73px]  md:left-[40%] md:static    list-none gap-5  md:flex items-center  ${
+      className={`absolute top-[73px]  md:left-[40%] md:static     list-none gap-5  md:flex items-center  ${
         isClick
           ? "bg-[#ddd] w-full py-5 flex flex-col items-center justify-center md:block  border-b-2 "
           : "-left-[100px] md:left-0 "

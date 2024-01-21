@@ -1,9 +1,9 @@
 import { FaSearch, FaUserCircle } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
 
-const NavIcons = () => {
+const NavIcons: React.FC = () => {
   return (
-    <div className="flex items-center sm:gap-7 gap-4 md:pr-4">
+    <div className="flex items-center sm:gap-7 gap-4">
       <FaSearch
         size={20}
         className="hover:text-[#515151] cursor-pointer transition-all"

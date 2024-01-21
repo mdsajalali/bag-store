@@ -14,14 +14,13 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper/modules";
 
-const Banner = () => {
+const Banner: React.FC = () => {
   const bags: string[] = [bag_1, bag_2, bag_3, bag_4, bag_5];
   return (
     <div className="flex items-center justify-center md:mt-[77px] mt-[73px]">
       <Swiper
         pagination={{
           type: "progressbar",
-          
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
@@ -29,7 +28,18 @@ const Banner = () => {
       >
         {bags.map((bag, idx) => (
           <SwiperSlide>
-            <img className="xl:w-[700px]  w-[500px] object-cover mx-auto" src={bag} alt={String(idx)} />
+            <img
+              className="xl:w-[600px]  w-[400px] object-cover mx-auto"
+              src={bag}
+              alt={String(idx)}
+            />
+            <div className="flex items-center flex-col justify-center ">
+              <h2 className="text-[18px] font-semibold">Top Branded</h2>
+              <h1 className="text-2xl font-bold my-2">Best Bages 2024</h1>
+              <button className="text-[14px]    uppercase text-white bg-[#F76B6A] hover:bg-[#d8111b] transition-all px-4 py-2 rounded-md">
+                Shop Now
+              </button>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
