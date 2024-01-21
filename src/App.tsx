@@ -1,6 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 const App = () => {
-  return <div className=" text-2xl">App</div>;
+  return (
+    <>
+      <Outlet />
+    </>
+  );
 };
 
 export default App;
-
