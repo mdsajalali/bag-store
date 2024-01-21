@@ -16,7 +16,7 @@ import { Pagination, Navigation } from "swiper/modules";
 
 const Banner: React.FC = () => {
   const bags: string[] = [bag_1, bag_2, bag_3, bag_4, bag_5];
-  const getFullYear = new Date().getFullYear()
+  const getFullYear: number = new Date().getFullYear()
   return (
     <div className="flex items-center justify-center md:mt-[77px] mt-[73px]">
       <Swiper

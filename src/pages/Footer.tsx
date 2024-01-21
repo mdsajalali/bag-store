@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
-    const getFullYear = new Date().getFullYear();
+  const getFullYear: number = new Date().getFullYear();
   return (
-    <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10 items-center sm:place-items-center list-none text-white py-10 font-semibold px-4">
+    <footer>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10 list-none text-white py-10 font-semibold px-4">
         <nav>
           <li>
             <Link to="/">Shop</Link>
@@ -34,12 +34,12 @@ const Footer: React.FC = () => {
           <li>Pinterest</li>
         </div>
       </div>
-      <footer className="text-center text-white border-t py-5 px-4">
+      <div className="text-center text-white border-t py-5 px-4">
         <p className="text-[14px]">
           © {getFullYear} by Sajal. Proudly created with Md. Sajal Ali
         </p>
-      </footer>
-    </>
+      </div>
+    </footer>
   );
 };
 
