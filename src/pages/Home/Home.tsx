@@ -1,4 +1,5 @@
 import Container from "../../components/Container";
+import Banner from "../Banner";
 import Navbar from "../Navbar";
 
 const Home = () => {
@@ -9,6 +10,9 @@ const Home = () => {
           <Navbar />
         </Container>
       </div>
+      <Container>
+        <Banner />
+      </Container>
     </>
   );
 };
