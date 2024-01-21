@@ -1,50 +1,30 @@
+import { useState } from "react";
 import { FaSearch, FaUserCircle } from "react-icons/fa";
 import { FaBagShopping } from "react-icons/fa6";
+import { GrMenu } from "react-icons/gr";
+import { IoClose } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import NavItems from "../components/NavItems";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
+  const [isClick, setIsClick] = useState<boolean>(false);
+
+  const handleClick = () => {
+    setIsClick(!isClick);
+  };
+
   return (
-    <div className="flex items-center justify-between my-4 ">
+    <div className="flex items-center justify-between my-4">
       <div>
-        <h1 className="text-3xl font-bold">
+        <h1 className="sm:text-3xl text-2xl font-bold pl-4 xl:pl-0">
           <Link to="/">Bag Store .</Link>
         </h1>
       </div>
-      <nav className="flex list-none gap-5 ">
-        <li>
-          <Link
-            to="/"
-            className="text-[18px] font-semibold hover:bg-[#121212] hover:text-white py-2 px-3 transition-all"
-          >
-            Shop
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            className="text-[18px] font-semibold hover:bg-[#121212] hover:text-white py-2 px-3 transition-all"
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            className="text-[18px] font-semibold hover:bg-[#121212] hover:text-white py-2 px-3 transition-all"
-          >
-            Faq
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/"
-            className="text-[18px] font-semibold hover:bg-[#121212] hover:text-white py-2 px-3 transition-all"
-          >
-            Contact
-          </Link>
-        </li>
-      </nav>
-      <div className="flex items-center gap-5">
+      
+      {/* navItems */}
+      <NavItems isClick={isClick} />
+
+      <div className="flex items-center sm:gap-7 gap-4 md:pr-4">
         <FaSearch
           size={20}
           className="hover:text-[#515151] cursor-pointer transition-all"
@@ -57,6 +37,19 @@ const Navbar = () => {
           size={20}
           className="hover:text-[#515151] cursor-pointer transition-all"
         />
+      </div>
+      <div onClick={handleClick} className="md:hidden pr-4 md:pr-0">
+        {isClick ? (
+          <IoClose
+            size={30}
+            className="hover:text-[#515151] cursor-pointer transition-all"
+          />
+        ) : (
+          <GrMenu
+            size={25}
+            className="hover:text-[#515151] cursor-pointer transition-all"
+          />
+        )}
       </div>
     </div>
   );
