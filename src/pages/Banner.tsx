@@ -1,8 +1,8 @@
-import bag_1 from "../assets/images/bags/bag-1.webp";
-import bag_2 from "../assets/images/bags/bag-2.webp";
-import bag_3 from "../assets/images/bags/bag-3.webp";
-import bag_4 from "../assets/images/bags/bag-4.webp";
-import bag_5 from "../assets/images/bags/bag-5.webp";
+import bag_1 from "../assets/images/banner-bags/bag-1.webp";
+import bag_2 from "../assets/images/banner-bags/bag-2.webp";
+import bag_3 from "../assets/images/banner-bags/bag-3.webp";
+import bag_4 from "../assets/images/banner-bags/bag-4.webp";
+import bag_5 from "../assets/images/banner-bags/bag-5.webp";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
