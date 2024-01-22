@@ -40,7 +40,14 @@ const Bags: React.FC = () => {
 
   return (
     <>
-      <h1 className="mb-5 mt-20 text-2xl font-bold text-white px-4 py-1 rounded-sm inline-block bg-[#F76B6A]">Products</h1>
+      <div className="mt-20 mb-10">
+        <h1 className=" text-gray-600 md:text-4xl text-3xl font-bold">
+          Products
+        </h1>
+        <p className="text-[17px] mt-1">
+          Always something different
+        </p>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 mb-20 gap-10 mt-5 place-items-center">
         {data.map((bag) => (
           <BagCard key={bag.id} data={bag} />
