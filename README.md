@@ -29,7 +29,7 @@ git clone https://github.com/mdsajalali/bag-store.git
 2. Install dependencies:
 
 ```
-cd real-estate-grovy
+cd bag-store
 npm install
 ```
 
