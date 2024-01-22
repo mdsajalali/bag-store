@@ -37,7 +37,7 @@
   },
   {
     "id": 7,
-    "img": "../src/assets/images/bags/main7.jpg",
+    "img": "https://i.ibb.co/SxRJJ8d/main7.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
