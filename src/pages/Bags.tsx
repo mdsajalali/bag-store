@@ -26,12 +26,16 @@ const Bags: React.FC = () => {
 
   // Display loading state while fetching data
   if (isLoading) {
-    return <p>Loading...</p>;
+    return (
+      <div className="flex justify-center items-center my-10">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-[#F76B6A] border-solid"></div>
+      </div>
+    );
   }
 
   // Check if data is available before rendering
   if (!data) {
-    return <p>No data available</p>;
+    return <p className="text-center my-10">No data available!</p>;
   }
 
   return (
