@@ -1,4 +1,5 @@
 import Container from "../../components/Container";
+import Bags from "../Bags";
 import Banner from "../Banner";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
       </div>
       <Container>
         <Banner />
+        <Bags />
       </Container>
       <div className="bg-[#121212] mt-14">
         <Container>
