@@ -1,8 +1,7 @@
-import bag_1 from "../assets/images/banner-bags/bag-1.webp";
-import bag_2 from "../assets/images/banner-bags/bag-2.webp";
-import bag_3 from "../assets/images/banner-bags/bag-3.webp";
-import bag_4 from "../assets/images/banner-bags/bag-4.webp";
-import bag_5 from "../assets/images/banner-bags/bag-5.webp";
+import bag_1 from "../assets/images/bag-1.webp";
+import bag_2 from "../assets/images/bag-2.webp";
+import bag_3 from "../assets/images/bag-3.webp";
+import bag_4 from "../assets/images/bag-4.webp";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,7 +14,7 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 
 const Banner: React.FC = () => {
-  const bags: string[] = [bag_1, bag_2, bag_3, bag_4, bag_5];
+  const bags: string[] = [bag_1, bag_2, bag_3, bag_4 ];
   const getFullYear: number = new Date().getFullYear()
   return (
     <div className="flex items-center justify-center md:mt-[77px] mt-[73px]">

@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "img": "../src/assets/images/bags/main1.jpg",
+    "img": "https://i.ibb.co/fN2X9wc/main1.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 2,
-    "img": "../src/assets/images/bags/main2.jpg",
+    "img": "https://i.ibb.co/z7pkpnX/main2.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 3,
-    "img": "../src/assets/images/bags/main3.jpg",
+    "img": "https://i.ibb.co/pxsW4kc/main3.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 4,
-    "img": "../src/assets/images/bags/main4.jpg",
+    "img": "https://i.ibb.co/FH7RQ34/main4.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 5,
-    "img": "../src/assets/images/bags/main5.jpg",
+    "img": "https://i.ibb.co/T8Jxb2q/main5.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 6,
-    "img": "../src/assets/images/bags/main6.jpg",
+    "img": "https://i.ibb.co/mvnq71v/main6.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
@@ -43,31 +43,31 @@
   },
   {
     "id": 8,
-    "img": "../src/assets/images/bags/main8.jpg",
+    "img": "https://i.ibb.co/8XWRQrV/main8.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 9,
-    "img": "../src/assets/images/bags/main9.jpg",
+    "img": "https://i.ibb.co/PmHwgmF/main9.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 10,
-    "img": "../src/assets/images/bags/main10.jpg",
+    "img": "https://i.ibb.co/M2F751f/main10.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 11,
-    "img": "../src/assets/images/bags/main11.jpg",
+    "img": "https://i.ibb.co/Wny29rf/main11.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   },
   {
     "id": 12,
-    "img": "../src/assets/images/bags/main12.jpg",
+    "img": "https://i.ibb.co/sVFmGKd/main12.webp",
     "desc": "I'm a Bag",
     "price": "$15.00"
   }
