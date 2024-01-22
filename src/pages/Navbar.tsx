@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     <div className="flex items-center justify-between my-4">
       {/* Navbar Logo */}
       <div>
-        <h1 className="sm:text-3xl text-2xl font-bold">
+        <h1 className="sm:text-3xl text-2xl font-bold xl:pl-0 pl-4">
           <Link to="/">Bag Store .</Link>
         </h1>
       </div>
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
       <NavIcons />
 
       {/* navBar Toggle */}
-      <div onClick={handleClick} className="md:hidden">
+      <div onClick={handleClick} className="md:hidden pr-4">
         {isClick ? (
           <IoClose
             size={30}

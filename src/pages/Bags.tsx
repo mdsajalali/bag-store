@@ -40,7 +40,7 @@ const Bags: React.FC = () => {
 
   return (
     <>
-      <div className="mt-20 mb-10">
+      <div className="mt-20 mb-10 px-2">
         <h1 className=" text-gray-600 md:text-4xl text-3xl font-bold">
           Products
         </h1>
