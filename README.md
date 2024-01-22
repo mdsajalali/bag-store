@@ -17,6 +17,7 @@
 - [x] SWIPER.JS
 - [x] Fonts: Google Fonts (Montserrat)
 - [x] Icons: [React-Icons]
+- [x] IMAGES-HOSTING: [imgbb.com]
 
 ### 💻 Getting Started
 
